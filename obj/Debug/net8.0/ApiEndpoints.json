@@ -1,0 +1,67 @@
+[
+  {
+    "ContainingType": "Books.Api.BooksEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapBooksEndpoints\u003Eb__0_0",
+    "RelativePath": "api/books",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Books.Api.BooksEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapBooksEndpoints\u003Eb__0_1",
+    "RelativePath": "api/books/{id:int}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Books.Api.BooksEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapBooksEndpoints\u003Eb__0_2",
+    "RelativePath": "api/books/search",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "title",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "author",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
